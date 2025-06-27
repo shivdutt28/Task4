@@ -30,7 +30,7 @@ This repository documents the setup and testing of a firewall using UFW (Uncompl
 - **Action**: Added a rule to allow SSH traffic on port 22.
 - **Command**: `sudo ufw allow 22`
 - **Result**: Rule applied successfully.
-
+  
 ### 5. Testing
 - **Action**: Tested the block rule on port 23.
 - **Method**: Attempted a Telnet connection.
@@ -49,10 +49,6 @@ This repository documents the setup and testing of a firewall using UFW (Uncompl
 - **Command**: `sudo ufw status numbered`
 - **Result**: Verified the updated rule set.
 
-## Supporting Files
-- `ufw_status_initial.png`: Screenshot of initial firewall status.
-- `ufw_status_after_rules.png`: Screenshot after applying rules.
-- `ufw_status_final.png`: Screenshot of final firewall status.
 
 ## Summary
 The firewall effectively filters network traffic by enforcing rules to allow or deny access on specific ports. UFW simplifies firewall management with intuitive commands, enhancing security by controlling traffic and blocking unsecured services like Telnet (port 23) while permitting essential services like SSH (port 22).
